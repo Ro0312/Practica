@@ -12,6 +12,8 @@ Algoritmo programa22
 			Escribir "aqui programa Angel";
 		opcion_3:
 			Escribir "aqui programa Antonio";
+		opcion_4:
+			Escribir "aqui programa olaf"
 		De Otro Modo:
 			Escribir "dato no aceptado";
 	Fin Segun
