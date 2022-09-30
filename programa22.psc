@@ -1,6 +1,8 @@
 Algoritmo programa22
 	Definir programa Como Entero;
 	Definir n,nfibonacci Como Entero;
+	Definir f, i, n Como Entero;
+	Definir c Como Caracter;
 	Escribir "seleccione el programa que desea ejecutar";
 	Escribir "1-----fibonacci";
 	Escribir "2-----piramide";
@@ -20,7 +22,18 @@ Algoritmo programa22
 				nnormal=nfibonacci
 			Fin Mientras
 		opcion_2:
-			Escribir "aqui programa Angel";
+			Escribir sin saltar "Ingresa valor de n"; leer n;
+			Escribir Sin Saltar "ingresa un caracter"; leer c;
+			para f<-1 hasta n con paso 1 hacer 
+				para i<-1 hasta n-f con paso 1 hacer
+					Escribir Sin Saltar " ";
+				FinPara
+	             
+				para i<-1 hasta 2*f-1 Con Paso 1 hacer
+					escribir Sin Saltar c;
+				FinPara
+				Escribir " ";
+			FinPara
 		opcion_3:
 			Escribir "aqui programa Antonio";
 		opcion_4:
