@@ -3,6 +3,8 @@ Algoritmo programa22
 	Definir n,nfibonacci Como Entero;
 	Definir f, i, n Como Entero;
 	Definir c Como Caracter;
+Definir n1,n2 Como Real;
+	Definir n Como Entero;
 	Escribir "seleccione el programa que desea ejecutar";
 	Escribir "1-----fibonacci";
 	Escribir "2-----piramide";
@@ -36,6 +38,51 @@ Algoritmo programa22
 			FinPara
 		opcion_3:
 			Escribir "aqui programa Antonio";
+Escribir "1---suma";
+	Escribir "2---resta";
+	Escribir "3---multiplicacion";
+	Escribir "4---division";
+	Escribir "5---potencia";
+	Leer n
+	Segun n Hacer
+		1:
+			Escribir "ingrese un numero";
+			Leer n1;
+			Escribir "ingrese un numero";
+			Leer n2;
+			x<-n1+n2;
+			Escribir "la suma de tus numeros es   ",x;
+		2:
+			Escribir "ingrese un numero";
+			Leer n1;
+			Escribir "ingrese un numero";
+			Leer n2;
+			x<-n1-n2;
+			Escribir "la resta de tus numeros es   ",x;
+		3:
+			Escribir "ingrese un numero";
+			Leer n1;
+			Escribir "ingrese un numero";
+			Leer n2;
+			x<-n1*n2;
+			Escribir "la multplicacion de tus numeros es   ",x;
+		4:
+			Escribir "ingrese un numero";
+			Leer n1;
+			Escribir "ingrese un numero";
+			Leer n2;
+			x<-n1/n2;
+			Escribir "la division de tus numeros es   ",x;
+		5:
+			Escribir "ingrese un numero";
+			Leer n1;
+			Escribir "ingrese el valor de la potencia";
+			Leer n2;
+			x<-n1^n2;
+			Escribir "la potencia de tus numeros es   ",x;
+		De Otro Modo:
+			Escribir "el dato ingresado no es compatible o no se encuentra en servicio";
+	Fin Segun
 		opcion_4:
 			Escribir "aqui programa olaf"
 		De Otro Modo:
