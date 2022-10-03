@@ -24,8 +24,8 @@ Definir n1,n2 Como Real;
 				nnormal=nfibonacci
 			Fin Mientras
 		opcion_2:
-			Escribir sin saltar "Ingresa valor de n"; leer n;
-			Escribir Sin Saltar "ingresa un caracter"; leer c;
+			Escribir sin saltar "Ingresa valor de filas de altura"; leer n;
+			Escribir Sin Saltar "ingresa un caracter a formar la piramide"; leer c;
 			para f<-1 hasta n con paso 1 hacer 
 				para i<-1 hasta n-f con paso 1 hacer
 					Escribir Sin Saltar " ";
